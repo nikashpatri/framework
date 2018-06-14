@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [cartmodule]">
+  <test name="cart_Test1(failed)">
+    <classes>
+      <class name="TestScripts.Cart_Test">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verify_MouseHoverOnCart_WhenCartEmpty"/>
+          <include name="beforTest"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- TestScripts.Cart_Test -->
+    </classes>
+  </test> <!-- cart_Test1(failed) -->
+</suite> <!-- Failed suite [cartmodule] -->

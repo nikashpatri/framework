@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="cartmodule" >
+
+<test name="cart_Test1">
+<classes>
+<class name="TestScripts.Cart_Test">
+<methods>
+<include name="verify_MouseHoverOnCart_WhenCartEmpty"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

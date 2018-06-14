@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56653" started-at="2018-05-13T12:26:28Z" finished-at="2018-05-13T12:27:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56653" started-at="2018-05-13T12:26:28Z" finished-at="2018-05-13T12:27:25Z">
+      <class name="TestScripts.Home_Test">
+        <test-method status="PASS" signature="beforTest()[pri:0, instance:TestScripts.Home_Test@e63ade]" name="beforTest" is-config="true" duration-ms="262" started-at="2018-05-13T17:56:28Z" finished-at="2018-05-13T17:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:TestScripts.Home_Test@e63ade]" name="beforeMethod" is-config="true" duration-ms="4605" started-at="2018-05-13T17:56:29Z" finished-at="2018-05-13T17:56:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void TestScripts.Home_Test.verifyPriceFilter() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyPriceFilter()[pri:0, instance:TestScripts.Home_Test@e63ade]" name="verifyPriceFilter" duration-ms="51447" started-at="2018-05-13T17:56:33Z" finished-at="2018-05-13T17:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceFilter -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestScripts.Home_Test@e63ade]" name="afterMethod" is-config="true" duration-ms="2" started-at="2018-05-13T17:57:25Z" finished-at="2018-05-13T17:57:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPriceFilter status=SUCCESS method=Home_Test.verifyPriceFilter()[pri:0, instance:TestScripts.Home_Test@e63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestScripts.Home_Test@e63ade]" name="afterTest" is-config="true" duration-ms="320" started-at="2018-05-13T17:57:25Z" finished-at="2018-05-13T17:57:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestScripts.Home_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
